@@ -1,0 +1,48 @@
+export type PracticePhrase = {
+  canto: string;
+  meaning: string;
+  jyutping: string;
+};
+
+export const PRACTICE_PHRASES: PracticePhrase[] = [
+  { canto: "食饭", meaning: "吃饭", jyutping: "sik6 faan6" },
+  { canto: "边度", meaning: "哪里", jyutping: "bin1 dou6" },
+  { canto: "开心", meaning: "开心", jyutping: "hoi1 sam1" },
+  { canto: "唔该", meaning: "谢谢/劳驾", jyutping: "m4 goi1" },
+  { canto: "唔紧要", meaning: "没关系", jyutping: "m4 gan2 jiu3" },
+  { canto: "得闲", meaning: "有空", jyutping: "dak1 haan4" },
+  { canto: "几多", meaning: "多少", jyutping: "gei2 do1" },
+  { canto: "而家", meaning: "现在", jyutping: "ji4 gaa1" },
+  { canto: "听日", meaning: "明天", jyutping: "ting1 jat6" },
+  { canto: "噚日", meaning: "昨天", jyutping: "cam4 jat6" },
+  { canto: "早晨", meaning: "早上好", jyutping: "zou2 san4" },
+  { canto: "夜晚", meaning: "晚上", jyutping: "je6 maan5" },
+  { canto: "返工", meaning: "上班", jyutping: "faan1 gung1" },
+  { canto: "收工", meaning: "下班", jyutping: "sau1 gung1" },
+  { canto: "搭车", meaning: "坐车", jyutping: "daap3 ce1" },
+  { canto: "行街", meaning: "逛街", jyutping: "haang4 gaai1" },
+  { canto: "买嘢", meaning: "买东西", jyutping: "maai5 je5" },
+  { canto: "饮茶", meaning: "喝茶/吃点心", jyutping: "jam2 caa4" },
+  { canto: "落雨", meaning: "下雨", jyutping: "lok6 jyu5" },
+  { canto: "好冻", meaning: "很冷", jyutping: "hou2 dung3" },
+  { canto: "好热", meaning: "很热", jyutping: "hou2 jit6" },
+  { canto: "冇问题", meaning: "没问题", jyutping: "mou5 man6 tai4" },
+  { canto: "有冇", meaning: "有没有", jyutping: "jau5 mou5" },
+  { canto: "知唔知", meaning: "知不知道", jyutping: "zi1 m4 zi1" },
+  { canto: "点算", meaning: "怎么办", jyutping: "dim2 syun3" },
+  { canto: "慢慢嚟", meaning: "慢慢来", jyutping: "maan6 maan6 lai4" },
+  { canto: "加油", meaning: "加油", jyutping: "gaa1 jau4" },
+  { canto: "小心啲", meaning: "小心一点", jyutping: "siu2 sam1 di1" },
+  { canto: "试下", meaning: "试一下", jyutping: "si3 haa5" },
+  { canto: "冇所谓", meaning: "无所谓", jyutping: "mou5 so2 wai6" },
+  { canto: "边个", meaning: "谁", jyutping: "bin1 go3" },
+  { canto: "几时", meaning: "什么时候", jyutping: "gei2 si4" },
+  { canto: "点解", meaning: "为什么", jyutping: "dim2 gaai2" },
+  { canto: "赶时间", meaning: "赶时间", jyutping: "gon2 si4 gaan3" },
+  { canto: "等阵先", meaning: "等一下", jyutping: "dang2 zan6 sin1" },
+  { canto: "帮手", meaning: "帮忙", jyutping: "bong1 sau2" },
+  { canto: "食咗未", meaning: "吃了没", jyutping: "sik6 zo2 mei6" },
+  { canto: "睇住", meaning: "看着", jyutping: "tai2 zyu6" },
+  { canto: "准备好", meaning: "准备好了", jyutping: "zeon2 bei6 hou2" },
+  { canto: "一齐", meaning: "一起", jyutping: "jat1 cai4" },
+];
